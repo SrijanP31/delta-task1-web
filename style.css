@@ -1,6 +1,38 @@
 table,tr,td {
     border: 1px solid;
     border-collapse: collapse;
-    width: 50%;
-    height: 50%;
+}
+
+td{
+    width:70;
+    height:70;
+}
+table{
+    margin:auto;
+}
+
+#player{
+    text-align: center;
+}
+
+.canon{
+    text-align: center;
+    background-color: grey;
+}
+
+td:has(#tank-red){
+    text-align:center;
+    background-color: #ed1c24;
+}
+
+td:has(#tank-blue){
+    text-align:center;
+    background-color: #00b7ef;
+}
+
+
+img{
+    margin:auto;
+    padding:0px;
+    transform: rotate(180deg);
 }
